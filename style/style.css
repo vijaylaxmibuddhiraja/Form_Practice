@@ -8,8 +8,21 @@
     font-family: 'Montserrat', sans-serif;;
  }
 body {
-    
-    
-    
+     background: #f1cc5b; 
+     padding: 0 10px;
 }
- 
+
+ .container .heading {
+    padding: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: green;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    color: green;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: solid;
+
+}
