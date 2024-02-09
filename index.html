@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/style/style.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+        
+    <h3 class="heading">Volunteering</h3>
+    <h1 class="main head">Environmental Conservation Volunteer Form</h1>
+
+<div class="form">
+  <h2 class="info">Register Here</h2>
+<form id="register" method="post">
+
+   
+  <div class="input_field">
+     <label>First Name </label>
+     <input type="text" class="input"  placeholder="Enter Your First Name">   
+  </div>
+
+   <div>
+      <label> Last Name </label>
+      <input type="text" class="input"  placeholder="Enter Your Last Name">
+   </div>
+   
+    <div class="input_field">
+        <label>Age </label>
+        <input type="number" class="input"  placeholder="How old are you">      
+    </div>
+
+    <div class="input_field">
+        <label>Gender </label><br>
+        <input type="radio" name="gender" id="male">  
+       <span>Male</span>
+       &nbsp; &nbsp;
+        <input type="radio" name="gender" id="Female">  
+        <span>Female</span>
+        &nbsp; &nbsp;
+        <input type="radio" name="gender" id="other">  
+        <span>Other</span>
+    </div>
+
+    <div class="input_field">
+        <label>Email Address </label>
+        <input type="text" class="input"  placeholder="Enter Your email">     
+    </div>
+
+    <div class="input_field">
+        <label>Phone Number </label>
+        <input type="text" class="input"  placeholder="Enter phone number">     
+    </div>
+
+    
+    <div class="input_field">
+        <label>Area of Interest</label>
+        <div class="custom_select"></div>
+        <select>
+           <option value="" disabled selection>Select --</option>
+           <option value="">Tree Planting</option>
+           <option value="">Wildlife Monitoring</option>
+           <option value="">Other</option>
+        </select>
+    </div>
+
+    <div class="input_field">
+        <label>Relevent Experience</label>
+        <textarea class="textarea" placeholder="Your Experience"></textarea>
+    </div> 
+
+    <div class="input_field terms">
+        <label class="check">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+        </label>
+        <p>I Agree to all terms and conditions</p>
+    </div>
+
+    <button type="submit" name="submit">Submit</button>   
+
+</form>
+</div>
+</div>
+  
+</body>
+</html>
