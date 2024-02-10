@@ -1,5 +1,4 @@
-
-    
+   
 .main_body {
     width: 1250px;
     height: 650px;
@@ -7,8 +6,7 @@
     margin-left: 100px;
     background: #9DBEBB; 
     position: absolute;
-    display: flex;
-    
+    display: flex;   
 }
 
 .container {
@@ -25,7 +23,6 @@
      #BE0909 65%, 
      #FFB039 65%,
      #FFB039 100%
-     );
-              
+     );             
 }
    
