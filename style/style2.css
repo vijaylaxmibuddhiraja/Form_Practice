@@ -26,3 +26,14 @@
      );             
 }
    
+.right {
+    float: right;
+    background: url(/image/hiclipart\ 2.png);
+    width: 663px;
+    height: 603px;
+    position: absolute;
+    margin-left: 100px;
+    transform: translate(585px 205px);
+   
+    
+}
