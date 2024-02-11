@@ -26,7 +26,7 @@
      );             
 }
  
-.fields   {
+.fields {
     margin-left:20px;
     padding: 10px;
     font-weight: normal;
@@ -39,8 +39,7 @@ label {
    display: flex;
    padding: 10px;
    font-weight:20px;
-   font-style: normal;
-   
+   font-style: normal;  
 }
 
 input {
@@ -48,7 +47,8 @@ input {
 }
 
 .fields input {
-    width: 40%;
+    width: 30%;
+    margin-left: 10px;
     background: transparent;
     border: none;
     outline: none;
@@ -59,6 +59,7 @@ input {
 
 .fields textarea {
     width: 40%;
+    margin-left: 10px;
     background: transparent;
     border: none;
     outline: none;
