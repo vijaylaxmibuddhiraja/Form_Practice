@@ -1,20 +1,20 @@
    
 .main_body {
-    width: 1250px;
-    height: 650px;
+    width: 1350px;
+    height: 700px;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 80px;
     background: #9DBEBB; 
     position: absolute;
     display: flex;   
 }
 
 .container {
-    width:700px ;
-    height: 400px; 
+    width:800px ;
+    height:500px; 
     top: 100px;
     margin-left: 320px;
-    padding: 40px;
+    padding: 20px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -25,12 +25,70 @@
      #FFB039 100%
      );             
 }
+ 
+.fields   {
+    margin-left:20px;
+    padding: 10px;
+    font-weight: normal;
+    font-style:normal;
+    color: beige;  
+    position: relative;     
+}   
+
+label {
+   display: flex;
+   padding: 10px;
+   font-weight:20px;
+   font-style: normal;
    
+}
+
+input {
+    margin-bottom: 25px;
+}
+
+.fields input {
+    width: 40%;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    border-bottom: 1px solid #9DBEBB;   
+    color: aliceblue;
+}
+
+.fields textarea {
+    width: 40%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #9DBEBB;
+}
+
+button {
+    width: 30%;
+    margin-left: 40px;
+    padding:10px 20px;
+    font-size:15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: teal;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: #FFB039;
+    color: teal;
+}
+
 .right {
     background: url(/image/hiclipart\ 2.png);
     width: 543px;
     height: 474px;
     position: absolute;
-    margin-left: 210px;
-    top: 20px;   
+    margin-left: 280px;
+    margin-top: 20px;     
 }
