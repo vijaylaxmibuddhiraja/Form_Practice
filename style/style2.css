@@ -66,6 +66,16 @@ input {
     border-bottom: 1px solid #9DBEBB;
 }
 
+.fields input:hover {
+    background-color: #FFB039;
+    color: teal;
+}
+
+.fields textarea:hover {
+    background-color: #FFB039;
+    color: teal;
+}
+
 button {
     width: 30%;
     margin-left: 40px;
